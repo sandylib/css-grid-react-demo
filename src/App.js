@@ -7,21 +7,18 @@ function App() {
     
     <div className={styles.app}>
        
-    
+       <header className={styles.header}>
+        <Header />
+      </header>
+      <div className={styles.sidebar}>
+
+      </div>
    
     
     <div className={styles.content}>
+       {/* homework is doing the header part of the this block */}
       
-      </div>
-      <div className={styles.sidebar}>
-
     </div>
-
-    <header className={styles.header}>
-      <Header />
-    </header>
-  
-   
     <div className={styles.footer}>
 
     </div>
