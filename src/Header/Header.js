@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import styles from './Head.module.css';
+
+import logo from './logo.svg';
 
 const Header = () => {
     return (
-        <div>
-            home work finish this component
+        <div className={styles.container}>
+           <div className={styles.logo}>
+               <img src={logo} alt={'logo'} />
+           </div>
+           <div className={styles.title}>
+               RUBIX RACING
+           </div>
         </div>
     )
 }

@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% 18px 50%;
+    grid-template-rows: 48px;
+    background-color: var(--dark-grey-two);
+  }
+  
+  .logo {
+    justify-self: end;
+    align-self: center;
+    grid-column-start: 1;
+    width: 27.5px;
+    height: 29.6px;
+  }
+  
+  .title {
+    justify-self: start;
+    align-self: center;
+    grid-column-start: 3;
+    font-family: HelveticaNeue-Ext;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--azure);
+  }
+  
+  

@@ -57,7 +57,7 @@
 }
 .content {
   grid-area: content;
-  grid-template-rows: min-content;
+  grid-template-rows: min-content 1fr;
   display: grid;
   background-color: var(--dark);
 }

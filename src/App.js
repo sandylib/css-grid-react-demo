@@ -1,6 +1,6 @@
 
 import styles from './App.module.css';
-
+import Header from './Header/Header';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
     </div>
 
     <header className={styles.header}>
+      <Header />
     </header>
   
    
