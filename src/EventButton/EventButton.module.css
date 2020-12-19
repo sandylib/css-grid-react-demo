@@ -1,0 +1,27 @@
+
+  
+  .item {
+    cursor:pointer;
+    width: 56px;
+    height: 42px;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 42px;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+  }
+   
+  .active {
+    font-weight: bold;
+    border: 1px;
+    border-color:var(--white);
+    border-bottom: solid;
+   }
+  
+   .rollover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  

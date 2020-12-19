@@ -36,6 +36,7 @@
   background-color: var(--dark);
   font-family: var(--font);
 }
+
 .app{
   display: grid;
   grid-template-rows: 48px 1fr 128px;

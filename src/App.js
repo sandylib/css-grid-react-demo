@@ -1,10 +1,11 @@
 
 import styles from './App.module.css';
 import Header from './Header/Header';
+import RaceHeader from './RaceHeader/RaceHeader';
 
 function App() {
   return (
-    
+
     <div className={styles.app}>
        
        <header className={styles.header}>
@@ -16,7 +17,8 @@ function App() {
    
     
     <div className={styles.content}>
-       {/* homework is doing the header part of the this block */}
+       <RaceHeader />
+       <div>table</div>
       
     </div>
     <div className={styles.footer}>
